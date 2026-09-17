@@ -162,7 +162,7 @@ f7 Red = True
 -- And this is a partial function. Partial in that it is not defined for all values of its parameter type (also called domain).
 -- This function crashes if applied to `Red`.
 -- Partial functions are bad, because they can lead to bugs.
--- Try: `f6 Red`
+-- Try: `f8 Red`
 f8 :: Color -> Char
 f8 Green = 'g'
 f8 Blue  = 'b'
